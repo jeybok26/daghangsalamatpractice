@@ -30,13 +30,26 @@
 
             </span>
         </div>
+        <div class="col-md-12 mt-3">
+            <span class="d-inline-block tabindex=" 0" data-toggle="tooltip" title="Click to close the page and you'll be redirected to jw.org">
+
+                <button class="btn btn-info btn-lg btn-inline border border-dark" style="pointer-events: auto;"
+                    type="button" onclick="toJworg()" name="closer"><strong>Close</strong></button>
+
+            </span>
+        </div>                                                                  
     </div>
     <script>
         function myFunction() {
             location.replace("https://jeybok26.github.io/practicecoding/")
         }
     </script>
-
+    <script>
+        function toJworg() {
+            location.replace("https://www.jw.org")
+        }
+    </script>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
